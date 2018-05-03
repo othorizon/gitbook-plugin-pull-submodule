@@ -7,7 +7,7 @@ module.exports = {
             const root = this.resolve('')
             console.log("start pull submodule");
             //直接调用命令 git submodule init;git submodule update
-            process.exec("git clone git@github.com:othorizon/MacAwesome.git",
+            process.exec("git clone https://github.com/othorizon/gitbook-plugin-pull-submodule.git",
                 function (error, stdout, stderr) {
                     console.log(stdout);
                     if (error !== null) {
