@@ -3,7 +3,7 @@ const process = require('child_process');
 
 module.exports = {
     hooks: {
-        init: function () {
+        "finish:before": function () {
             const root = this.resolve('')
             console.log("start pull submodule");
             //直接调用命令 git submodule init;git submodule update
