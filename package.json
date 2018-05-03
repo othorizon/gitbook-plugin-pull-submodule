@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-pull-submodule",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "pull git submodule",
   "main": "index.js",
   "scripts": {
