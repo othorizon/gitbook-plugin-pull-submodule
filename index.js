@@ -7,7 +7,7 @@ module.exports = {
             const root = this.resolve('')
             console.log("start pull submodule");
             //直接调用命令 git submodule init;git submodule update
-            process.execSync("ls -a",
+            process.exec("ls -a",
                 function (error, stdout, stderr) {
                     console.log(stdout);
                     if (error !== null) {
