@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-pull-submodule",
+  "version": "1.0.0",
+  "description": "pull git submodule",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othorizon/gitbook-plugin-pull-submodule.git"
+  },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "gitbook-submodule"
+  ],
+  "author": "rizon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/othorizon/gitbook-plugin-pull-submodule/issues"
+  },
+  "homepage": "https://github.com/othorizon/gitbook-plugin-pull-submodule#readme",
+  "engines": {
+    "gitbook": ">1.x.x"
+  }
+}
